@@ -19,4 +19,6 @@ export const categoryDelete = category => ({
   payload: category,
 });
 
-export const categoryReset = () => ({ type: 'CATEGORY_RESET' });
+export const categoryReset = () => ({
+  type: 'CATEGORY_RESET',
+});
